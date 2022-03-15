@@ -32,7 +32,7 @@ header nav .nav-bar{
     background-color: black;
 }
 
-#portfolio .col-md-3, #portfolio .col-9 {
+#portfolio .col-md-3, #portfolio .col-12{
     height: 200px;
 }
 
