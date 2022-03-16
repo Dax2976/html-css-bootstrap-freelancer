@@ -6,11 +6,11 @@
 
 
 :root{
-    background: rgba(26, 188, 156, 1);
-    background: rgba(44, 62, 80, 1);
-    background: rgba(32, 174, 148, 1);
+    --bg_primary: rgba(26, 188, 156, 1);
+    --bg_secondary: rgba(44, 62, 80, 1);
+    --succes: rgba(32, 174, 148, 1);
     background: rgba(51, 51, 51, 1);
-    background: rgba(58, 84, 109, 1);
+    --bg_blue: rgb(29, 61, 90);
     background: rgba(255, 255, 255, 1);
 
 }
@@ -44,21 +44,21 @@ header nav .nav-bar{
 
 
 #about{
-    height: 350px;
+    height: 500px;
     background-color: rgba(32, 174, 148, 1);
 }
 
-
+/* 
 footer{
     height: 200px;
-}
+} */
 
-.container1{
+/* .container1{
     height: 150px;
-}
+} */
 
 .container2{
-    height: 50px;
+    height: 100px;
 }
 
 /* #contatti{
@@ -86,4 +86,13 @@ body{
 .bg_green{
 
 background-color: rgba(26, 188, 156, 1);
+}
+
+
+.succes{
+    color: var(--succes);
+}
+
+#bg_blue{
+    background-color: var(--bg_secondary);
 }
