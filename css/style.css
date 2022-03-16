@@ -75,10 +75,19 @@ body{
   content: "";
   display: inline-block;
   height: 3px;
-  width: 80px;
+  width: 90px;
   border-radius: 2px;
+  background-color: black;
 }
 
+#jumbo .star_divider::after,
+#jumbo .star_divider::before{
+    background-color: white;
+}
+#about .star_divider::after,
+#about .star_divider::before{
+    background-color: white;
+}
 
 .bg_green{
 
@@ -112,10 +121,23 @@ background-color: rgba(26, 188, 156, 1);
 }
 
 .element{
-    height: 300px;
+   width: 100%;
+   height: auto;
     
 }
+#brands{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#brands i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-#padding{
-    padding: 0 -2rem;
 }
