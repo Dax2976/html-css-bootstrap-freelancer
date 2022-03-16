@@ -17,7 +17,7 @@
 
 
 header nav .nav-bar{
-    height: 80px;
+    /* height: 80px; */
 }
 
 #jumbo,.jumbo-cont{
@@ -26,15 +26,15 @@ header nav .nav-bar{
 }
  
 
-#portafolio .riga-1 .element{
-    height: 200px;
-    width: 200px;
+#portafolio .riga-1{
+    /* height: 200px;
+    width: 200px; */
     background-color: black;
 }
 
-#portfolio .col-md-3, #portfolio .col-12{
+/* #portfolio .col-md-3, #portfolio .col-12{
     height: 200px;
-}
+} */
 
 
 
@@ -50,18 +50,40 @@ header nav .nav-bar{
 
 
 footer{
-    height: 300px;
-}
-
-.container1{
     height: 200px;
 }
 
+.container1{
+    height: 150px;
+}
+
 .container2{
-    height: 100px;
+    height: 50px;
 }
 
-#contatti{
-    height: 350px;
+/* #contatti{
+    height: 450px;
+} */
+
+body{
+    color: white;
 }
 
+.portafolio img{
+  border-radius: 1rem !important;
+}
+
+.star_divider::before,
+.star_divider::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 80px;
+  border-radius: 2px;
+}
+
+
+.bg_green{
+
+background-color: rgba(26, 188, 156, 1);
+}
